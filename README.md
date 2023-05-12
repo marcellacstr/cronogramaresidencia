@@ -10,7 +10,7 @@ Paleta de cores do projeto:
 
 Códigos das Cores 
 
-#020202 - Preto /n
+#020202 - Preto
 #194D2E - Verde escuro
 #D2E59E - Verde matcha claro
 #CBD081 - verde meleca
