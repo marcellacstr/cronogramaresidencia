@@ -3,6 +3,7 @@ Repositório criado para desenvolver projeto de sistema para controle e cronogra
 
 Projeto pensado pelo cliente: https://pandorafylipe.notion.site/Cronograma-de-estudos-resid-ncia-m-dica-c58dcde9586042e99eac546d27a51ae9
 
+Diagrama de Caso de Uso: https://lucid.app/lucidchart/f08fb08d-116f-4e95-804a-1274255aa2d7/edit?viewport_loc=-15%2C348%2C2219%2C1052%2C.Q4MUjXso07N&invitationId=inv_475f13b7-10e7-45e9-9d1a-f7c41f8c3439
 
 Paleta de cores do projeto: 
 
