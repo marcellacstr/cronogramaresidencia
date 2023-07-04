@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<!-- IMPORTAÇÃO DE ÍCONES -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+	<title>Rumo à Residência</title>
+</head>
+<body>
+
+	<h1> Lista de Tarefas </h1>
+
+	<header>
+		<input  id = "inputTarefa" type="text" placeholder="Digite sua tarefa">
+		<button id = "btn-add" class="add" onclick="addTarefa()">Adicionar tarefa</button>
+	</header>
+
+	<main id="areaLista">
+		<div class="item">
+			<div class="item-icone">
+				<span class="material-symbols-outlined iconeGrande">check_box_outline_blank</span>
+			</div>
+			<div class="item-nome">
+				Teste tarefa
+			</div>
+			<div class="item-botao">
+				<button onclick="deletarTarefa()" class="delete">
+					<span class="material-symbols-outlined">delete</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="item-icone">
+				<span class="material-symbols-outlined iconeGrande">check_box_outline_blank</span>
+			</div>
+			<div class="item-nome">
+				Teste tarefa
+			</div>
+			<div class="item-botao">
+				<button class="delete">
+					<span class="material-symbols-outlined">delete</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="item clicado">
+			<div class="item-icone">
+				<span class="material-symbols-outlined iconeGrande">check_box</span>
+			</div>
+			<div class="item-nome">
+				Teste tarefa
+			</div>
+			<div class="item-botao">
+				<button class="delete">
+					<span class="material-symbols-outlined">delete</span>
+				</button>
+			</div>
+		</div>
+
+
+	</main>
+
+
+
+
+
+	<script type="text/javascript" src="controle.js"></script>
+
+</body>
+</html>

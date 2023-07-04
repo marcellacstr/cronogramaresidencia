@@ -1,0 +1,134 @@
+
+
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #eeeeee;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+
+}
+
+header {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	width: 80%;
+	margin: auto auto;
+}
+
+input {
+	height: 120px;
+	width: 80%;
+	padding: 5%;
+	font-size: 2rem;
+	
+}
+
+button.add {
+	height: 120px;
+	width: 20%;
+	cursor: pointer;
+	font-weight: bold;
+	border: none;
+	background: green;
+	color: white;
+	border-top-right-radius: 15%;
+	border-bottom-right-radius: 15%;
+
+}
+
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	width: 90%;
+	margin: auto auto;
+	border: 1px solid blue;
+	padding-top: 40px;
+
+}
+
+.item{
+	height: 80px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	background: white;
+	box-shadow: 0 0 20px #ccc;
+	margin-bottom: 1%;
+}
+
+.item.clicado {
+	background: lightgreen;
+
+}
+
+.item.clicado .item-nome {
+	text-decoration: line-through;
+	font-weight: normal;
+	color: gray;
+}
+
+
+.item-icone {
+	flex: 10%;
+	border: 2px solid orangered;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 0
+}
+
+.iconeGrande{
+	transform: scale(2);
+}
+
+.item-nome {
+	flex: 80%;
+	border: 2px solid deeppink;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+
+
+
+}
+
+.item-botao {
+	flex: 10%;
+
+}
+
+.delete {
+	background: red;
+	color: white;
+	border: none;
+	padding: 10px;
+	height: 80px;
+	width: 100%;
+
+}
