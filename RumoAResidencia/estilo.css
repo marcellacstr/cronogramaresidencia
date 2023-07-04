@@ -130,5 +130,72 @@ main {
 	padding: 10px;
 	height: 80px;
 	width: 100%;
+}
 
+
+
+
+/* página de incluir matéria*/
+
+header.pg-2 {
+	color: #194d2e;
+  
+}
+
+header.pg-2 img {
+    position: absolute;
+    top: 10px; /* Ajuste a posição verticalmente conforme necessário */
+    left: 10px; /* Ajuste a posição horizontalmente conforme necessário */
+}
+
+section .pg-2-h2 {
+    /* Estilos desejados para o h2 da segunda página */
+	color: #000000;
+	text-align: left;
+	font: 700 18px "Montserrat", sans-serif;
+	position: relative;
+	width: 177px;
+	height: 16px;
+	
+    /* Outros estilos... */
+}
+
+.input-menor {
+    width: 200%; /* Ajuste o valor da largura conforme necessário */
+	height: 40px;
+	font-size: 1.5rem;
+    padding: 2%;
+	background: #d2e59e;
+}
+
+.btn-cadastrar {
+	display: block; /* Exibe o botão em uma nova linha */
+  	margin-top: 10px; /* Define uma margem superior para separar da imagem */
+ 	margin: 30px;
+	background-color: #194D2E;
+	color: white;
+	font-size: 1.5rem;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 30px; /* Borda arredondada */
+	cursor: pointer;
+	width: 500px;
+  }
+  
+  .btn-cadastrar:hover {
+	background-color: 194D2E;
+  }
+  
+  .btn-cadastrar:active {
+	background-color: 194D2E;
+  }
+
+  .container {
+    /* Estilos desejados para o h2 da segunda página */
+	display: flex; /* Define o display como flex */
+	justify-content: flex-start; /* Alinha horizontalmente o conteúdo ao centro */
+	align-items: center; /* Alinha verticalmente o conteúdo ao centro */
+	margin: 20px; /* Adiciona um espaçamento de 20px nas margens */
+	
+    /* Outros estilos... */
 }
